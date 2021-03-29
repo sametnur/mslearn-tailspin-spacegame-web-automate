@@ -15,7 +15,7 @@ provider "azurerm" {
 }
 
 variable "resource_group_name" {
-  default = "tailspin-space-game-rg"
+  default = "terraform-rg"
   description = "The name of the resource group"
 }
 

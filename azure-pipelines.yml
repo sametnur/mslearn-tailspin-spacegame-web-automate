@@ -81,7 +81,7 @@ stages:
         set -e
 
         # Write terraform.tfvars.
-        echo 'resource_group_location = "'$(ResourceGroupLocation)'"' | tee terraform.tfvars
+        echo 'resource_group_location = "uksouth"' | tee terraform.tfvars
 
         # Initialize Terraform.
         terraform init
