@@ -15,7 +15,7 @@ provider "azurerm" {
 }
 
 variable "resource_group_name" {
-  default = "terraform-rg"
+  default = "terraform-rg-ms"
   description = "The name of the resource group"
 }
 
